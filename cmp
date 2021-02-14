@@ -1,3 +1,4 @@
 #g++ animal.cpp dog.cpp app.cpp -o app
 #g++ -fpermissive `pkg-config --cflags gtk+-3.0` animal.cpp dog.cpp cat.cpp app.cpp -o app `pkg-config --libs gtk+-3.0`
 g++ `pkg-config --cflags gtk+-3.0` animal.cpp dog.cpp cat.cpp app.cpp -o app `pkg-config --libs gtk+-3.0`
+read | echo "Press enter to end"

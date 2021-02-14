@@ -1,5 +1,7 @@
 #include "dog.h"
 
-Dog::Dog() {
-    name = "Dog";
+Dog::Dog(string _name) {
+    name = _name;
 };
+
+void Dog::dogSound() {};

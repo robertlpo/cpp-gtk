@@ -6,11 +6,11 @@
 using namespace std;
 
 class Animal {
-    public:
-	Animal();
-	string name;
-	void printName();
-	void showWindow();
+public:
+    Animal();
+    string name;
+    virtual void printName();
+    virtual void showWindow();
 };
 
 #endif

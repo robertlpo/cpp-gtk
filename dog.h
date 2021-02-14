@@ -4,8 +4,9 @@
 #include "animal.h"
 
 class Dog : public Animal {
-    public:
-	Dog();
+public:
+    Dog(string _name);
+    void dogSound();
 };
 
 #endif

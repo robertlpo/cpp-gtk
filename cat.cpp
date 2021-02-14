@@ -1,5 +1,7 @@
 #include "cat.h"
 
-Cat::Cat() {
-    name = "Cat";
+Cat::Cat(string _name) {
+    name = _name;
 };
+
+void Cat::catSound() {};
